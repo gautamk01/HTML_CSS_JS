@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url(fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: "GiloryBold";
+  src: url(fonts/Gilroy-Bold.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "MyCustomFont";
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #f5f9fc;
+}
+
+.main {
+  height: 200vh;
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  padding: 50px 50px;
+  justify-content: space-between;
+}
+
+.nav-content {
+  display: flex;
+  font-size: 18px;
+  gap: 20px;
+}
+
+.nav-part1 {
+  display: flex;
+  flex: 60;
+
+  flex-direction: row;
+
+  align-items: flex-start;
+  gap: 180px;
+}
+
+.nav-part2 {
+  flex: 40;
+  justify-content: flex-end;
+  font-size: 22px;
+  display: flex;
+  gap: 50px;
+}
+
+.landing-info {
+  height: 80vh;
+  padding: 50px 50px;
+}
+
+.landing-info h1 {
+  font-size: 140px;
+  letter-spacing: -5px;
+}
+
+.casestudy {
+
+  height: 100vh;
+  width: 100%;
+}
+
+.casestudy-header {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px;
+}
+
+.line {
+  width: 200px;
+  /* Adjust the width as needed */
+  height: 1px;
+  /* Height of the line */
+  background-color: black;
+  /* Color of the line */
+}
+
+.header-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.casestudy-main{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.image-section{
+  height: 520px;
+  width: 660px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.image1 {
+  background-size: cover;
+  background-image: url("https://cdn.dribbble.com/users/31630/screenshots/3903868/website_template_copy_5.png?resize=400x0");
+}
+.image2 {
+  background-size: cover;
+  background-image: url("https://miro.medium.com/v2/resize:fit:1400/format:webp/0*45HvkjFB_eQEGxgi.jpeg");
+}
+
+.project-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.p-detailes{
+  padding: 20px;
+  line-height: 25px;
+}
+.p-next{
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.p-next:hover{
+  background-color: black;
+  color: #f5f9fc;
+  transition: ease-in 0.5s; 
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Example with white glow */
+}

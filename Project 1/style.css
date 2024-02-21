@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url(fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+  font-family: "GiloryBold";
+  src: url(fonts/Gilroy-Bold.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "MyCustomFont";
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+/*========== nav section=============== */
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.nav h3 {
+  font-size: 16px;
+  border: 1.5px solid black;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.nav i {
+  font-size: 16px;
+  border: 1.5px solid black;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.nav h1 {
+  font-weight: 800;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 7px 12px;
+  border-radius: 50px;
+  border: 1.5px solid black;
+  font-weight: 600;
+  background-color: white;
+}
+
+.btn2 {
+  color: #fff;
+  background-color: orangered;
+}
+/*========== Ending Nav =============== */
+
+/* ++++++++++ Mainpage1 Title ++++++++++++++++++++ */
+.Home_Heading {
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 160px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ++++++++++ Mainpage1 Center Image  ++++++++++++++++++++ */
+.imgContainer img {
+  height: 490px;
+  width: 330px;
+  object-fit: cover;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#i1 {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+#i2 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+#i3 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+#i4 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+.imgdis {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 260px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 400%);
+}
+
+.imgdis i {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+.imgdis h3 {
+  margin: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+/* ++++++++++ Mainpage1 Center Image Ends  ++++++++++++++++++++ */
+
+/* ++++++++++ Mainpage1 Footer ++++++++++++++++++++ */
+.footermain {
+  padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  position: absolute;
+  top: 86%;
+}
+
+.arc {
+  padding: 10px;
+  border: 1.2px solid black;
+  border-radius: 50px;
+}
+.red-dot {
+  margin-bottom: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.5);
+  }
+  to {
+    box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0);
+  }
+}
+.socialbox {
+  padding: 29px;
+}
+
+.socialbox .iconbox {
+  display: flex;
+  margin-bottom: 5px;
+  gap: 10px;
+}
+/* ++++++++++ Mainpage1 Footer Ends ++++++++++++++++++++ */
+.section2 {
+  height: 100vh;
+  width: 100%;
+}
